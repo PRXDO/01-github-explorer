@@ -1,8 +1,6 @@
-import './styles/global.scss';
+import { RepositoryList } from './components/RepositoryList'
+import './styles/global.scss'
 
-export function App(){
-
-  // throw new Error('Eita, Giovanna o forninho caiu!');
-
-  return <h1>Hello React</h1>
+export function App() {
+  return <RepositoryList />
 }
